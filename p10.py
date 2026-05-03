@@ -18,6 +18,6 @@ def kadanes(arr):
       temp_start = k+1
   return [start,end]
 
-arr =[10,-14,23,0,-98,98,43,67,-32512,53,12,56,3,1]
+arr =[-1,-2,-3,-4]
 ans = kadanes(arr)
 print(ans)

@@ -43,10 +43,10 @@ def shuffle(str1,str2):
   return False
 
 
-str2 = "Abgusgejdjhi"
+str2 = "Abhigusgejdjhi"
 str1 = "Abhi"
 ans = shuffle(str1,str2)
-if(ans == True):
+if(ans == True): 
   print("it is suffle string")
 else:
   print("It is not suffle string")
